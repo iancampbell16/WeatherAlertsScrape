@@ -138,7 +138,7 @@ def ScrapeAlerts(driver, action, state, county=''):
 
 if __name__ == '__main__':
 
-    PATH = "/Users/iancampbell/Documents/WebDriver/chromedriver"
+    PATH = "Path to chromedriver"
     s = Service(PATH)
     options = Options()
     options.headless = True
